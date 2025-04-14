@@ -1,0 +1,11 @@
+start
+ new balance number
+ new price number
+ set balance 300
+ set price 1000
+ if (balance>price)
+   log string "у нас хватит денег, чтобы купить товар"
+ else
+   log string "у нас НЕ хватит денег, чтобы купить товар"
+ close
+ finish
